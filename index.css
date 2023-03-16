@@ -1,132 +1,64 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 235, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 01 - HTML</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="fotobonita.png" type="fotobonita">
-</head>
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
 
-<body>
-    <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="sobremim.html">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="formação.html">Formação</a>
-                </li>
-                <li>
-                    <a href="redessociais.html">Redes Sociais</a>
-                </li>
-            </ul>
-        </nav>
+a {
+    color: rgb(33, 84, 73);
+    text-decoration: none;
+}
 
-        <header>
-            <div class="center">
-                <img src="./fotobonita.png"></img>
-            </div>
-           
-            <h1>João Victor Guidorizi da Silva</h1>
-            <hr>
-        
-        </header>
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(151, 205, 219);
+}
 
-        <main>
-            <section>
-                <h3>Sobre mim</h3>
-                <p>
-                    Olá, me chamo João Victor tenho 21 anos, sou estudante do curso de Análise e Desenvolvimento de Sistemas na UTFPR-CP e esta é minha primeira página HTML!
-                </p>
-                <hr>
-            </section>
-            <section>
-                <h3>Formação Acadêmica</h3>
-                <p>
-                    Colégio Estadual Monteiro Lobato - Ensino Médio Completo
-            <p></p>
-                    Universidade Tecnológica Federal do Paraná - Superior Incompleto
-                </p>
-                <hr>
-    
-        
-            </section>
-            <section>
-                <h3>Horários e Discplinas</h3>
-                <table border="2">
-                    <tr>
-                        <td>Horários</td>
-                        <td>Segunda</td>
-                      <td>Terça</td>
-                      <td>Quarta</td>
-                      <td>Quinta</td>
-                      <td>Sexta</td>
-                    </tr>
-                    <tr>
-                      <td bgcolor="Add8e6">18:40-19:30</td>
-                      <td>Banco de Dados</td>
-                      <td>Algoritmos</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td bgcolor="Add8e6">19:30-20:20</td>
-                      <td>Banco de Dados</td>
-                      <td>Algoritmos</td>
-                      <td></td>
-                      <td>Programação Web Front-End</td>
-                      <td>Programação Web Front-End</td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="Add8e6">20:20-21:10</td>
-                        <td>Banco de Dados</td>
-                        <td>Algoritmos</td>
-                        <td></td>
-                        <td>Programação Web Front-End</td>
-                        <td>Programação Web Front-End</td>
-                      </tr>
-                      <tr>
-                        <td bgcolor="Add8e6">21:20-22:10</td>
-                        <td>Algoritmos</td>
-                        <td>Banco de Dados</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td bgcolor="#Add8e6">22:10-23:00</td>
-                        <td>Algoritmos</td>
-                        <td>Banco de Dados</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                      </tr>
-                  </table>
-              
-        </main>
+.center {
+    text-align: center;
+}
 
-        <footer>
-            <a href="https://www.instagram.com/jvguidorizi/" target="_blank" rel="noopener noreferrer">
-                <img src="./bxl-instagram-alt.svg"></img>
-                <p>Instagram</p>
-            </a>
-            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-guidorizi-da-silva-3b9770268/" target="_blank" rel="noopener noreferrer">
-                <img src="./bxl-linkedin-square.svg"></img>
-                <p>LinkedIn</p>
-            </a>
-            <a href="https://www.facebook.com/joaovictor.guidorizi" target="_blank" rel="noopener noreferrer">
-                <img src="./bxl-facebook-circle.svg"></img>
-                <p>Facebook</p>
-            </a>
-        </footer>
-    </div>
-   
-</body>
+h1 {
+    color: rgb(58, 113, 90);
+}
 
-</html>
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
